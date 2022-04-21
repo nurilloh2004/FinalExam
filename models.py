@@ -17,6 +17,7 @@ class BaseModel(ABC):
         self.__isValid = True
 
     @property
+    
     def isValid(self):
         return self.__isValid
 
